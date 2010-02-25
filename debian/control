@@ -1,0 +1,14 @@
+Source: oi-themes-azbooka
+Section: gui
+Maintainer: Mikhail Gusarov <dottedmag@dottedmag.net>
+Build-Depends: debhelper (>= 7)
+XCS-Cross-Host-Build-Depends: debhelper (>= 7)
+XCS-Cross-Build-Depends:
+Priority: optional
+Standards-Version: 3.8.3
+
+Package: oi-themes-azbooka
+Architecture: all
+Depends: ${shlibs:Depends}
+Description: default UI theme for Azbooka
+ This package contains sets default theme for Azbooka devices.
